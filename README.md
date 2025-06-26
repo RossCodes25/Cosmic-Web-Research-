@@ -5,7 +5,7 @@ The CMD is a collection of a 2D or 3D grids of the full snapshot. Whereas in the
 
 In the simulations there are 6 parameters of interest;
  - $\Omega_m$ - The matter content of the universe, $\in$ [0.1,0.5]
- - $\sigma_8$, - The overall smoothness of the universe, $\in$ [0.6,1.0]
+ - $\sigma_8$ - The overall smoothness of the universe, $\in$ [0.6,1.0]
  - ASN1 - Energy per unit star formation rate of galactic winds
  - AGN1 - Energy per unit black hole accretion rate
  - ASN2 - Wind speed of galactic winds

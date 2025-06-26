@@ -10,7 +10,7 @@ params = np.loadtxt(fparams)
 
 #Name of the file with the 2D maps - it stores 2100 maps of HI = 28 parameters x 5 values in a  x 15 slices
 fnameHI=data_dir+'Maps_HI_IllustrisTNG_1P_z=0.00.npy'
-fnameGAS = data_dir + 'Maps_Mgas_IllustrisTNG_1P_z=0.00.npy'
+fnameGAS = data_dir+'Maps_Mgas_IllustrisTNG_1P_z=0.00.npy'
 #read the data
 maps_1p_TNG_HI = np.load(fnameHI)
 maps_1p_TNG_MGAS = np.load(fnameGAS)

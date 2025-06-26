@@ -4,12 +4,12 @@ The overlap of gas, dark matter, and galaxy filaments with varying cosmology and
 The CMD is a collection of a 2D or 3D grids of the full snapshot. Whereas in the snapshot we have information for all the particles (their position and properties) in the simulation, in a 3D grid we split the volume in 256^3 cells and record the average or total property of the particles in each cell. Information is here: https://camels-multifield-dataset.readthedocs.io/en/latest/index.html. 
 
 In the simulations there are 6 parameters of interest;
-$\Omega_m$ - The matter content of the universe, $\in$ [0.1,0.5]
-$\sigma_8$, - The overall smoothness of the universe, $\in$ [0.6,1.0]
-ASN1 - Energy per unit star formation rate of galactic winds
-AGN1 - Energy per unit black hole accretion rate
-ASN2 - Wind speed of galactic winds
-AGN2 - Ejection speed of kinetic mode of black hole feedback
+ - $\Omega_m$ - The matter content of the universe, $\in$ [0.1,0.5]
+ - $\sigma_8$, - The overall smoothness of the universe, $\in$ [0.6,1.0]
+ - ASN1 - Energy per unit star formation rate of galactic winds
+ - AGN1 - Energy per unit black hole accretion rate
+ - ASN2 - Wind speed of galactic winds
+ - AGN2 - Ejection speed of kinetic mode of black hole feedback
 
 And in particular: https://camels-multifield-dataset.readthedocs.io/en/latest/data.html, this is vital to this work.
 
@@ -19,7 +19,7 @@ The data used is detailed below:
 
  * **Parameter file (32KB)**: https://users.flatironinstitute.org/~camels/CMD/2D_maps/data/IllustrisTNG/params_1P_IllustrisTNG.txt
 
- The first 2D map file is from the IllustrisTNG 1P dataset.
+ The first 2D map file is from the IllustrisTNG 1P dataset;
  - The 1P dataset is used because we can vary both cosmological and astrophysical parameters, whereas with most others you can only vary 1. 
  - In the 1P set, each of the 28 parameters can take 5 values (one varying at a time) so we have a total of 28x5=140 possible combination of parameters. I.e., we have 140 original 3D simulation boxes. Each of the 3D simulation boxes is "sliced" into 15 2D maps. 
   - So we have 140x15=2100 2D maps of neutral hydrogen map. Each 2D map is stored in a 256x256 pixel grid.

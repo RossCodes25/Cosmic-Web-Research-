@@ -9,9 +9,12 @@ fparams = data_dir + 'params_1P_IllustrisTNG.txt'
 params = np.loadtxt(fparams)
 
 #Name of the file with the 2D maps - it stores 2100 maps of HI = 28 parameters x 5 values in a  x 15 slices
-fname=data_dir+'Maps_HI_IllustrisTNG_1P_z=0.00.npy'
-
+fnameHI=data_dir+'Maps_HI_IllustrisTNG_1P_z=0.00.npy'
+fnameGAS = data_dir + 'Maps_Mgas_IllustrisTNG_1P_z=0.00.npy'
 #read the data
-maps_1p_TNG = np.load(fname)
+maps_1p_TNG_HI = np.load(fnameHI)
+maps_1p_TNG_MGAS = np.load(fnameGAS)
+print(np.shape(maps_1p_TNG_HI)) # this tells us it is a 256x256 2D grid 
+print(np.shape(maps_1p_TNG_MGAS))
 
-print(np.shape(maps_1p_TNG)) # this tells us it is a 256x256 2D grid 
+# New addition of M gas to this also 

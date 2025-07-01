@@ -6,10 +6,10 @@ The CMD is a collection of a 2D or 3D grids of the full snapshot. Whereas in the
 In the simulations there are 6 parameters of interest;
  - $\Omega_m$ - The matter content of the universe, $\in$ [0.1,0.5]
  - $\sigma_8$ - The overall smoothness of the universe, $\in$ [0.6,1.0]
- - ASN1 - Energy per unit star formation rate of galactic winds
- - AGN1 - Energy per unit black hole accretion rate
- - ASN2 - Wind speed of galactic winds
- - AGN2 - Ejection speed of kinetic mode of black hole feedback
+ - ASN1 - Energy per unit star formation rate of galactic winds # want to also add range 
+ - AGN1 - Energy per unit black hole accretion rate # want to also add range
+ - ASN2 - Wind speed of galactic winds # want to also add range
+ - AGN2 - Ejection speed of kinetic mode of black hole feedback # want to also add range
 
 And in particular: https://camels-multifield-dataset.readthedocs.io/en/latest/data.html, this is vital to this work.
 

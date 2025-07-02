@@ -1,9 +1,4 @@
 import numpy as np
-
-data_dir = '/Users/rossmcphee/Desktop/CAMELS/CMD/CMD/Data/'
-
-import numpy as np
-
 data_dir = '/Users/rossmcphee/Desktop/CAMELS/CMD/CMD/Data/'
 
 def load_params():
